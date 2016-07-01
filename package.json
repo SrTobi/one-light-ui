@@ -1,15 +1,15 @@
 {
-  "name": "one-light-ui",
+  "name": "vs-blue-ui",
   "theme": "ui",
-  "version": "1.4.0",
-  "description": "Atom One light UI theme",
+  "version": "0.0.1",
+  "description": "An atom theme inspired by the visual studio blue theme.",
   "keywords": [
     "light",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-light-ui",
+  "repository": "https://github.com/SrTobi/vs-blue-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
