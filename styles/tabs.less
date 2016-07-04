@@ -187,4 +187,9 @@ atom-pane.active .tab.active {
 // Tab shadow for active pane
 atom-pane.active .tab-bar {
   box-shadow: inset 0 -2px 0 @tab-background-color-active;
+
+
+  &:empty {
+    box-shadow: inset 0 -1px 0 @pane-item-border-color;
+  }
 }
