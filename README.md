@@ -4,7 +4,7 @@ This is an atom theme inspired by the Blue theme of Visual Studio.
 
 For Visual Studio Syntax experience use the [Redmond Syntax theme](https://atom.io/themes/redmond-syntax) made by [nycdotnet](https://atom.io/users/nycdotnet).
 
-![VS-Blue-UI](/images/vs-blue-ui_redmond.png)
+![VS-Blue-UI](https://raw.githubusercontent.com/SrTobi/vs-blue-ui/master/images/vs-blue-ui_redmond.png)
 
 ### Adaptive
 
@@ -12,7 +12,7 @@ To some extend this theme uses colors of the syntax theme, although it is not in
 
 Here it is with the solaris light syntax theme:
 
-![VS-Blue-UI with Solaris syntax theme](/images/vs-blue-ui_solaris.png)
+![VS-Blue-UI with Solaris syntax theme](https://raw.githubusercontent.com/SrTobi/vs-blue-ui/master/images/vs-blue-ui_solaris.png)
 
 ### Settings
 
