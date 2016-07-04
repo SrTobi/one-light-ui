@@ -10,18 +10,16 @@ atom-workspace {
 	background-color: @app-background-color;
 	padding: @ui-padding-pane;
 
-	atom-panel-container.left:empty {
-		padding-left: @ui-padding-pane;
-	}
-
 	atom-workspace-axis.horizontal {
 		> atom-pane-container:not(:last-child):not(:empty),
+		> atom-workspace-axis:not(:last-child):not(:empty),
 		> atom-panel-container:not(:last-child):not(:empty) {
 			padding-right: @ui-padding-pane;
 		}
 	}
 	atom-workspace-axis.vertical {
 		> atom-pane-container:not(:last-child):not(:empty),
+		> atom-workspace-axis:not(:last-child):not(:empty),
 		> atom-panel-container:not(:last-child):not(:empty) {
 			padding-bottom: @ui-padding-pane;
 		}
