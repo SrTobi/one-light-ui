@@ -1,24 +1,18 @@
-## One light UI theme [![Build Status](https://travis-ci.org/atom/one-light-ui.svg?branch=master)](https://travis-ci.org/atom/one-light-ui)
+## Visual Studio Blue UI theme for atom
 
-A light UI theme that adjusts to most Syntax themes.
+This is an atom theme inspired by the Blue theme of Visual Studio.
 
-![one-light-ui](https://cloud.githubusercontent.com/assets/378023/6980108/fb10eec2-da27-11e4-9e52-7f4115044a97.png)
+For Visual Studio Syntax experience use the [Redmond Syntax theme](https://atom.io/themes/redmond-syntax) made by [nycdotnet](https://atom.io/users/nycdotnet).
 
-> The font used in the screenshots is [Fira Mono](https://github.com/mozilla/Fira). Icons by [file-icons](https://atom.io/packages/file-icons).
+![VS-Blue-UI](/images/vs-blue-ui_redmond.png)
 
-### Combine with other Syntax themes
+### Adaptive
 
-There is a matching [Syntax theme](https://atom.io/themes/one-light-syntax), but most other Syntax themes work fine as well.
+To some extend this theme uses colors of the syntax theme, although it is not intended to be fully adaptive.
 
-![one-light-ui + sepia](https://cloud.githubusercontent.com/assets/378023/6980110/fc59aca6-da27-11e4-963c-7ecd8400b2c0.png)
-> One light + [Sepia](https://atom.io/themes/sepia-syntax)
+Here it is with the solaris light syntax theme:
 
-![one-light-ui + chester](https://cloud.githubusercontent.com/assets/378023/6980109/fb13e384-da27-11e4-8324-8d8ee2de5ad5.png)
-> One light + [Chester](https://atom.io/themes/chester-atom-syntax)
-
-### Install
-
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting "One Light" from the __UI Themes__ drop-down menu.
+![VS-Blue-UI with Solaris syntax theme](/images/vs-blue-ui_solaris.png)
 
 ### Settings
 
@@ -38,19 +32,8 @@ And pick a __Tab Sizing__ mode:
 2. `Minimum` - In Mimimum mode the tabs will be as small as possible.
 3. `Even` - In Even mode all tabs will be the same size.
 
-### Customize
 
-It's also possible to resize only certain areas by adding the following to your `styles.less` (Use the DevTools to find the right selectors):
+## Contribute
 
-```css
-.theme-one-light-ui {
-  .tab-bar { font-size: 18px; }
-  .tree-view { font-size: 14px; }
-  .status-bar { font-size: 12px; }
-}
-```
-
-### FAQ
-
-__Why do the colors change when I switch Syntax themes.__
-This UI theme uses the same background color as the choosen Syntax theme. In case that Syntax theme has a dark background color, it only uses its hue, but otherwise stays light. This lets you use light-dark combos.
+Feel free to contribute to this theme [here](https://github.com/SrTobi/vs-blue-ui).
+Please read the [CONTRIBUTING.md](/CONTRIBUTING.md).
