@@ -75,10 +75,13 @@
 @scrollbar-color-editor:            contrast(@ui-syntax-color, darken(@ui-syntax-color, 14%), lighten(@ui-syntax-color, 9%) );
 @scrollbar-background-color-editor: @ui-syntax-color;
 
-@tab-text-color:                    @text-color-subtle;
-@tab-text-color-active:             @text-color-highlight;
-@tab-text-color-editor:             contrast(@ui-syntax-color, lighten(@ui-syntax-color, 70%), @text-color-highlight );
-@tab-background-color-editor:       @ui-syntax-color;
+@tab-text-color:                    white;
+@tab-text-color-active:             black; //@text-color-highlight;
+@tab-text-color-editor:             black; //contrast(@ui-syntax-color, lighten(@ui-syntax-color, 70%), @text-color-highlight );
+@tab-background-color:              @level-3-color;
+@tab-background-color-active:       #fff29d;
+@tab-background-color-active-nof:   lighten(@level-4-color, 20%);
+//@tab-background-color-editor:       @ui-syntax-color;
 
 @tooltip-background-color:          @accent-color;
 @tooltip-text-color:                @accent-text-on-bg-color;
