@@ -1,4 +1,4 @@
-describe "One Light UI theme", ->
+describe "VS Blue UI theme", ->
   beforeEach ->
     waitsForPromise ->
       atom.packages.activatePackage('vs-blue-ui')
